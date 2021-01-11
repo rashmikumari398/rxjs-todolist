@@ -14,7 +14,7 @@ import {  StoreModule } from "@ngrx/store";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({result:reducer}),
+    StoreModule.forRoot({ result : reducer}),
     StoreDevtoolsModule.instrument({logOnly: true })
   ],
   providers: [],
